@@ -30,18 +30,18 @@ Infires is a **BTS-curated music library**, providing an interactive way to expl
 ## 📸 Screenshots  
 
 ### Login Page  
-![Login Page](ss/ss1.png)  
+![Login Page](ss/ss1.PNG)  
 
 ### About BTS Page  
-![About BTS](ss/ss2.png)  
+![About BTS](ss/ss2.PNG)  
 ![Member Card Hover](ss/member-card-hover.png)
 
 ### Discography Page  
-![Discography](ss/disco1.png)  
-![Discography](ss/disco2.png)
+![Discography](ss/disco1.PNG)  
+![Discography](ss/disco2.PNG)
 
 ### Top Songs Page  
-![Top Songs](ss/top-songs.png) 
+![Top Songs](ss/topsong.png) 
 
 ## 🔧 Tech Stack  
 [![My Skills](https://skillicons.dev/icons?i=html,css,js)](https://skillicons.dev)
