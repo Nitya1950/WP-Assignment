@@ -34,6 +34,7 @@ Infires is a **BTS-curated music library**, providing an interactive way to expl
 
 ### About BTS Page  
 ![About BTS](ss/ss2.PNG)  
+## Card Hovering
 ![Member Card Hover](ss/member-card-hover.png)
 
 ### Discography Page  
