@@ -1,0 +1,145 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top BTS Songs</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="navigation.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, #6a97e4, #a98af7);
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        .container {
+            margin-left: 20%;
+            padding: 20px;
+        }
+        .song {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .song img {
+            width: 100px;
+            height: 100px;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: transform 0.2s ease-in-out;
+        }
+        .song img:hover {
+            transform: scale(1.1);
+        }
+        .song p {
+            margin-left: 15px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        audio {
+            display: none; /* Hide default player */
+        }
+    </style>
+</head>
+<body>
+
+<div class="sidebar">
+    <a href="login.html"><i class="fa fa-fw fa-snowflake-o"></i>Sign Up/Login</a>
+    <a href="About bts.html"><i class="fa fa-fw fa-trophy"></i> About BTS</a>
+    <a href="discography.html"><i class="fa fa-fw fa-headphones"></i> Discography</a>
+    <a href="music.html"><i class="fa fa-fw fa-music"></i> Top Songs</a>
+</div>
+
+<div class="container">
+    <div class="song">
+        <img src="LY Answer.jpeg" alt="IDOL" onclick="playSong('idol')">
+        <p> IDOL from Love Yourself: Answer</p>
+        <audio id="idol" src="Idol.mp3"></audio>
+    </div>
+
+    <div class="song">
+        <img src="LY HER.jpeg" alt="Mic Drop" onclick="playSong('micdrop')">
+        <p> Mic Drop from Love Yourself: HER</p>
+        <audio id="micdrop" src="07 MIC Drop.mp3"></audio>
+    </div>
+
+    <div class="song">
+        <img src="MBMIL.jpg" alt="Run" onclick="playSong('run')">
+        <p> Run from Most Beautiful Moment in Life Part 2</p>
+        <audio id="run" src="Run.mp3"></audio>
+    </div>
+
+    <div class="song">
+        <img src="springday.jpg" alt="Spring Day" onclick="playSong('springday')">
+        <p> Spring Day from You Never Walk Alone</p>
+        <audio id="springday" src="spring day.mp3"></audio>
+    </div>
+
+    <div class="song">
+        <img src="ineedyou.jpg" alt="I Need U" onclick="playSong('ineedyou')">
+        <p> I Need U from Most Beautiful Moment in Life Part 1</p>
+        <audio id="ineedyou" src="I need U.mp3"></audio>
+    </div>
+</div>
+
+<script>
+    function playSong(id) {
+        let audio = document.getElementById(id);
+        if (audio.paused) {
+            audio.play();
+        } else {
+            audio.pause();
+        }
+    }
+</script>
+
+</body>
+</html>
+<!--<!DOCTYPE html>
+
+<html lang="en" >
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="navigation.css">
+</head>
+<body>
+   
+  <div class="sidebar">
+  <a href="login.html" ><i class="fa fa-fw fa-snowflake-o"></i>Sign Up/Login</a>
+  <a href="About bts.html"><i class="fa fa-fw fa-trophy"></i> About BTS</a>
+  <a href="discography.html"><i class="fa fa-fw fa-headphones"></i> Discography</a>
+  <a href="music.html"><i class="fa fa-fw fa-music"></i> Top Songs</a>
+</div>
+    <center>
+    <div style="margin-left:20%">
+        <p>5.IDOL from Love Yourself:Answer album</p>
+        <audio src="Idol.mp3" controls />
+        </div>
+    <div style="margin-left:20%">
+        <p>4.Mic Drop from Love Yourself:HER album</p>
+        <audio src="07 MIC Drop.mp3" controls />
+    </div>
+    <div style="margin-left:20%">
+         <p>3.Run from Most Beautiful Moment in Life Part 2</p>
+         <audio src="Run.mp3" controls />
+     </div>
+     <div style="margin-left:20%">
+         <p>2.Spring Day from You Never Walk Alone album</p>
+         <audio src="spring day.mp3" controls />
+     </div>
+     <div style="margin-left:20%">
+        <p>1.I Need You from Most Beautiful Moment in Life Part 1</p>
+        <audio src="I need U.mp3" controls />
+    </div>
+    </center>
+</html> -->
