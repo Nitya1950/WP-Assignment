@@ -1,4 +1,4 @@
-# Infires 🎶🔥  
+# Infires 🎶![Logo](staticlogo.png)
 
 Infires is a **BTS-curated music library**, providing an interactive way to explore BTS's music and members. The website features a user-friendly navigation system, an engaging discography, and a selection of top songs.
 
